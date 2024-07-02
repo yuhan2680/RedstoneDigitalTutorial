@@ -8,7 +8,7 @@
 
 ***
 
-![封面](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%B0%81%E9%9D%A2.png "封面")
+![封面](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%B0%81%E9%9D%A2.png "封面")
  
 # 模拟信号与数字信号
 
@@ -36,25 +36,25 @@
 
 每个数码处于不同位置时，其表示的数值也是不同的，且都为10的整数幂。比如2680这个数就可以表示为：
  
-![2680十进制表示](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/2680%E5%8D%81%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA.png "2680十进制表示")
+![2680十进制表示](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/2680%E5%8D%81%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA.png "2680十进制表示")
 
 通常来说，我们会给一个数加上括号并在括号的右下角用角标来表示数的进制，十进制的2680也就是(2680)10。有时候也可以用十进制(Denary)的首字母D来表示，即(2680)D。因此，以上式子也就等同于：
 
-![（2680）10](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%EF%BC%882680%EF%BC%8910.png "（2680）10")
-![（2680）D](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%EF%BC%882680%EF%BC%89D.png "（2680）D")
+![（2680）10](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%EF%BC%882680%EF%BC%8910.png "（2680）10")
+![（2680）D](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%EF%BC%882680%EF%BC%89D.png "（2680）D")
  
 ## 二进制
 
 二进制就是以2为基数的计数体制，它只采用0和1两个符号，且缝二进一。二进制里没有2这个数，所以1+1=10（注意，这里是“壹零”，不是“十”）。
 和十进制一样，二进制数N可以被表示为(N)2或者(N)B，B即二进制(Binary)的英文首字母缩写。*二进制的各位数都可以表示为2的整数幂，对于一个二进制数101.11，就可以表示为：*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0101.11%E7%9A%84%E8%A1%A8%E7%A4%BA.png "图片title")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0101.11%E7%9A%84%E8%A1%A8%E7%A4%BA.png "图片title")
 
 *因为二进制装置简单可靠，所用元器件较少，且基本运算规则简单，目前数字电路普遍采用二进制。*
 
 二进制数的运算规则如下：
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BF%90%E7%AE%97%E8%A7%84%E5%88%99.png "二进制数的运算规则")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BF%90%E7%AE%97%E8%A7%84%E5%88%99.png "二进制数的运算规则")
 
 ## 十六进制和八进制
 
@@ -64,27 +64,27 @@
 
 *十六进制数各位都是十六的整数幂，如十六进制数6D.4B，其就可以表示为：*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/6D.4B%E7%9A%84%E8%A1%A8%E7%A4%BA.png "6D.4B的表示")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/6D.4B%E7%9A%84%E8%A1%A8%E7%A4%BA.png "6D.4B的表示")
 
 八进制采用8个计数符号：0、1、2、3、4、5、6、7，进位基数是8（缝八进一）。八进制数N也可以用(N)8或者(N)O表示。各个位也都为8的整数幂。对于八进制数374.6，其就是：
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/374.6%E7%9A%84%E5%85%AB%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA.png "374.6的八进制表示")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/374.6%E7%9A%84%E5%85%AB%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA.png "374.6的八进制表示")
 
 *上图这样的式子通常称为“按权展开式”，对于任意二进制数、八进制数、十进制数及十六进制数，其按权表达式如下：*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "二进制数的按权表达式")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "二进制数的按权表达式")
 
 *二进制数的按权表达式*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%85%AB%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "八进制数的按权表达式")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%85%AB%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "八进制数的按权表达式")
  
 *八进制数的按权表达式*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "十进制数的按权表达式")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "十进制数的按权表达式")
  
 *十进制数的按权表达式*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "十六进制数的按权表达式")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E6%95%B0%E7%9A%84%E6%8C%89%E6%9D%83%E8%A1%A8%E8%BE%BE%E5%BC%8F.png "十六进制数的按权表达式")
  
 *十六进制数的按权表达式*
 
