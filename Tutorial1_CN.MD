@@ -26,7 +26,7 @@
 
 *下图所示为模拟信号转为数字信号的过程，图(a)为模拟信号示例。对图(a)中模拟信号进行取样变为时间离散幅值连续的数字信号，如图(b)。t0、t1、t2、t3为取样时间点，在该时间点获取信号的幅值。随后，如图(c)所示，将该幅值进行量化（即数字化）取整，并变为时间离散幅值也离散的数字量。*
 
-![图片来源：清华大学出版社《数字电路与逻辑设计》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E6%A8%A1%E6%8B%9F%E4%BF%A1%E5%8F%B7%E7%9A%84%E6%95%B0%E5%AD%97%E8%A1%A8%E7%A4%BA.jpg "模拟信号的数字表示")
+![图片来源：清华大学出版社《数字电路与逻辑设计》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E6%A8%A1%E6%8B%9F%E4%BF%A1%E5%8F%B7%E7%9A%84%E6%95%B0%E5%AD%97%E8%A1%A8%E7%A4%BA.jpg "模拟信号的数字表示")
 
 # 数制
 
