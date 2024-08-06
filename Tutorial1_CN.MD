@@ -96,21 +96,21 @@
 
 “按权展开法”即将该数按权展开，将各个位乘以该位的权重，并将每一位所得结果相加。比如对于二进制数1101.101，将其转换为十进制数的过程如下：
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/1101.101%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BF%87%E7%A8%8B.png "1101.101")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/1101.101%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6%E7%9A%84%E8%BF%87%E7%A8%8B.png "1101.101")
 
 将十六进制数、八进制数转换为十进制数也是同理。
 
-![图片来源：清华大学出版社《数字电路与逻辑设计》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%B8%8D%E5%90%8C%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6%E6%95%B0%E7%A4%BA%E4%BE%8B.jpg "不同进制转换为十进制数示例")
+![图片来源：清华大学出版社《数字电路与逻辑设计》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%B8%8D%E5%90%8C%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6%E6%95%B0%E7%A4%BA%E4%BE%8B.jpg "不同进制转换为十进制数示例")
 
 *对于二进制数，该过程还可以进一步简化。二进制数中我们只需要将1所在位数的权值相加即可，无需考虑相乘和0所在位数。*
 
 *比如，将101101.01转换为十进制数：*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/101101.01%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6.png "101101.01转换为十进制")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/101101.01%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6.png "101101.01转换为十进制")
 
 *此方法要求对2的各次幂比较熟悉才能较快实现转换。下表列出了2的各次幂所对应的数：*
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/2%E7%9A%84%E5%90%84%E6%AC%A1%E5%B9%82%E6%89%80%E5%AF%B9%E5%BA%94%E7%9A%84%E6%95%B0.png "2的各次幂所对应的数")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/2%E7%9A%84%E5%90%84%E6%AC%A1%E5%B9%82%E6%89%80%E5%AF%B9%E5%BA%94%E7%9A%84%E6%95%B0.png "2的各次幂所对应的数")
 
 ## 十进制转二进制、八进制或十六进制
 
@@ -122,11 +122,11 @@
 
 比如我们要将53转换为二进制，其过程如下：
 
-![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%B0%8653%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6.png "53转换为二进制")
+![图片来源：《数字逻辑电路与系统设计第二版 (蒋立平著)》](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%B0%8653%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6.png "53转换为二进制")
 
 转换为八进制和十六进制也是同理，不过如果将十进制转换为十六进制的时候余下了高于9的数字，则应将其记录为对应的字母（A=10，B=11，C=12，D=13，E=14，F=15）。
 
-![图片来源：CSDN论坛](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E5%85%AB%E8%BF%9B%E5%88%B6%E5%8F%8A%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6.png "十进制转换为八进制和十六进制")
+![图片来源：CSDN论坛](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E5%85%AB%E8%BF%9B%E5%88%B6%E5%8F%8A%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6.png "十进制转换为八进制和十六进制")
 
 ## 二进制与八进制、十六进制的转换
 
@@ -134,18 +134,18 @@
 
 二进制数1101001101.01转换为八进制：
 
-![二进制数1101001101.01转换为八进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B61101001101.01%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%85%AB%E8%BF%9B%E5%88%B6.jpg)
+![二进制数1101001101.01转换为八进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B61101001101.01%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%85%AB%E8%BF%9B%E5%88%B6.jpg)
  
 八进制数315.27转换为二进制：
 
-![八进制数315.27转换为二进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%85%AB%E8%BF%9B%E5%88%B6315.27%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6.jpg)
+![八进制数315.27转换为二进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%85%AB%E8%BF%9B%E5%88%B6315.27%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6.jpg)
  
 十六进制数2BD.C转换为二进制：
 
-![十六进制数2BD.C转换为二进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B62BD.C%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6.jpg)
+![十六进制数2BD.C转换为二进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B62BD.C%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6.jpg)
  
 二进制数1101001101.01转换为十六进制：
 
-![二进制数1101001101.01转换为十六进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/new/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B61101001101.01%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6.jpg)
+![二进制数1101001101.01转换为十六进制](https://github.com/yuhan2680/RedstoneDigitalTutorial/blob/main/%EF%BC%88%E4%B8%80%EF%BC%89%E5%9B%BE%E7%89%87/%E4%BA%8C%E8%BF%9B%E5%88%B61101001101.01%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6.jpg)
 
 【第一期END，敬请期待第二期】
