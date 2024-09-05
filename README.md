@@ -1,4 +1,4 @@
-# RDT(RedstoneDigitalTutorial)
+# 红石数电教程 RedstoneDigitalTutorial
 
 一个更新红石数电教程的库，旨在让更多人接触MC红石数电
 
