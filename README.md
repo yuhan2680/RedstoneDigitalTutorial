@@ -1,8 +1,8 @@
-# 红石数电教程 RedstoneDigitalTutorial
+# 红石数电教程 RedstoneLogicalTutorial
 
 一个更新红石数电教程的库，旨在让更多人接触MC红石数电
 
-A project that update redstone digital tutorial, aim to make more people know about Minecraft digital curit
+A project that update redstone logical tutorial, aim to make more people know about Minecraft digital curit
 
 # 中文教程 Chinese Tutorial
 
